@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Septiadi Bayu E.S.I - Software Engineer</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Septiadi Bayu E.S.I's Portfolio, Software Engineer and AI/MLOps Enthusiast.">
+  <meta name="keywords" content="personal, portfolio, software engineer, python, c++, mlops, ai">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+  <link rel="stylesheet" href="static/css/main.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/icon-fonts/flat-icon/flaticon.css" />
+  <link rel="stylesheet" href="static/icon-fonts/font-awesome/css/all.min.css" />
+
+  <style>
+    /* Certificate Color & Underline Fix */
+    #certificates .timeline-item a, #certificates .timeline-item a h5 {
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    #certificates .timeline-item a:hover h5 {
+      color: #c1e756;
+    }
+
+    /* Profile Photo Shape Fix */
+    .profile-pic .image {
+      clip-path: none !important;
+      border-radius: 8px;
+    }
+    
+    /* Social Buttons Position & Style Fix (Li. Gh.) */
+    .profile-pic {
+        position: relative;
+    }
+    .profile-pic .social-links {
+        width: auto;
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        background: rgba(30, 30, 30, 0.5);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: 4px;
+    }
+    .profile-pic .social-links ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    .profile-pic .social-links ul li {
+        margin: 0;
+    }
+    .profile-pic .social-links ul li a {
+        display: block;
+        padding: 5px 12px;
+        background: none;
+        border: none;
+        color: #e0e0e0;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    .profile-pic .social-links ul li a:hover {
+        color: #c1e756;
+    }
+
+    #Training-timeline .bx-prev,
+    #Training-timeline .bx-next {
+        display: none !important;
+    }
+  </style>
+
+</head>
+
+<body class=" dark-version onepage without-wrapper">
+
+  <div id="loader" class="preloader">
+    <div class="loading">
+      <div class="profile-image">
+        <img src="static/profile-loader.png" alt="Profile Loader">
+        <svg style="position: absolute;" width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <circle class="js-circle circle" cx="50" cy="50" r="48" stroke="white" stroke-width="2" fill="none" />
+          <circle class="js-circle circletwo" cx="50" cy="50" r="48" stroke="white" stroke-width="2" fill="none" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="page-cover">
+    <div id="page-scroll">
+      <div class="barba-wrapper" data-barba="wrapper">
+        <main data-barba="container">
+          <div class="container">
+            <div class="page-wrapper">
+
+              <header id="fixed">
+                <div class="hamburger hamburger--elastic"> 
+                  <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> 
+                </div>
+                <nav>
+                  <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </nav>
+              </header>
+              
+              <section class="hero" id="home">
+                <div class="row">
+                  <div class="col-xl-3 col-lg-4 col-md-6 profile-pic">
+                    <div class="image clip-animation from-left" style="background-image: url(static/images/profile-byu.jpg);">
+                      <img src="static/images/profile-byu.jpg" alt="Profile Photo of Septiadi Bayu E.S.I">
+                    </div>
+                    <div class="social-links clip-animation">
+                      <ul>
+                        <li><a href="https://www.linkedin.com/in/septbyu" target="_blank">Li.</a></li>
+                        <li><a href="https://github.com/giftbyu" target="_blank">Gh.</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-8 col-md-6 right-content">
+                    <h5 class="hi classic-animation" data-delay=".5">Hi Everyone <span>👋</span></h5>
+                    <div class="spacer-15"></div>
+                    <h1 class="hero-big classic-animation" data-delay=".3">I'm Septiadi Bayu E.S.I<br> a <span
+                        class="element" data-values=" Software Engineer.,  AI/MLOps Enthusiast.,  Problem Solver., " data-loop="true"
+                        data-backdelay="2">Software Engineer.</span></h1>
+                    <div class="spacer-30"></div>
+                    <hr class="clip-animation" data-delay="1">
+                    
+                    <div class="row profile-info clip-animation" data-delay="1.1">
+                      <div class="col-lg-4 col-md-4">
+                        <div class="stauts">
+                          <h2>500+</h2>
+                          <p>Hours of Intensive Training</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4">
+                        <div class="stauts">
+                          <h2>20+</h2>
+                          <p>Certificates & Competitions</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                        <a href="static/Resume - Septiadi Bayu E.S.I.pdf" download class="emoji-button">
+                          <i>📄</i> <span>Download CV</span>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="spacer-30"></div>
+                <p class="clip-animation" data-delay="1.2">
+                  A final-year student and problem-solver from the world of robotics who discovered his true passion in software engineering. A background in mechatronics gives me a unique perspective to understand systems as a whole, from the hardware to the code that runs it. I am eager to channel my energy and technical expertise in Python and C++ to contribute to an innovative and global work environment.
+                </p>
+              </section>
+    
+              <section id="resume">
+                <div class="spacer-75"></div>
+                <div class="section-title page-caption">
+                  <h5>My Resume</h5>
+                  <div class="zigzag"><hr class="left"><hr class="right"><svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path></svg></div>
+                </div>
+                <div class="spacer-45"></div>
+                
+                <div class="timeline-caption-outer">
+                  <div class="timeline-caption">💼 <span>Training & Organizational Experience</span></div>
+                </div>
+                <div id="Training-timeline" class="timeline row">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 timeline-item"><div class="timeline-outer"><span class="mini-text">Nov 2021-Nov 2024</span><h5>Control & Programming Team Member, UNY Robotics UKM</h5><p class="little-p">Programmed microcontroller control systems (C++) and contributed to team achievements, including 3rd Place nationally at KKCTBN 2022.</p></div></div>
+                  <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6 col-md-6 offset-md-6 col-sm-12 timeline-item"><div class="timeline-outer"><span class="mini-text">Competency Certification</span><h5>Dicoding Indonesia</h5><p class="little-p">Completed over 500 hours of training, covering Machine Learning, MLOps, Data Science, and Software Development.</p></div></div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 timeline-item"><div class="timeline-outer"><span class="mini-text">Selected Participant</span><h5>Laskar AI</h5><p class="little-p">Selected participant for an intensive training program focused on the fundamental development and practical application of Artificial Intelligence.</p></div></div>
+                </div>
+                
+                <div class="spacer-120"></div>
+                <div class="timeline-caption-outer">
+                  <div class="timeline-caption">🎓 <span>Education</span></div>
+                </div>
+                <div id="education-timeline" class="timeline row">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 timeline-item"><div class="timeline-outer"><span class="mini-text">July 2021-August 2025 (Estimated)</span><h5>Yogyakarta State University</h5><p class="little-p">Mechatronics Engineering Education (GPA: 3.43/4.00)</p></div></div>
+                </div>
+
+                <div class="spacer-60"></div>
+                <div class="skills">
+                  <h5 class="underline-title classic-animation">My Skills</h5>
+                  <div class="spacer-60"></div>
+                  
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h5 class="underline-title">Programming & Concepts</h5>
+                      <ul class="skill-list">
+                        <li><div class="bar-info"><h3>Python</h3><span>Expert</span></div><div class="progress"><div class="percentage" data-percent="90%"></div></div></li>
+                        <li><div class="bar-info"><h3>C++</h3><span>Intermediate</span></div><div class="progress"><div class="percentage" data-percent="75%"></div></div></li>
+                        <li><div class="bar-info"><h3>REST API, JSON, OOP</h3><span>Intermediate</span></div><div class="progress"><div class="percentage" data-percent="80%"></div></div></li>
+                          <li><div class="bar-info"><h3>Git & GitHub</h3><span>Advanced</span></div><div class="progress"><div class="percentage" data-percent="85%"></div></div></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h5 class="underline-title">AI & MLOps</h5>
+                      <ul class="skill-list">
+                        <li><div class="bar-info"><h3>Machine/Deep Learning (TensorFlow, Keras)</h3><span>Advanced</span></div><div class="progress"><div class="percentage" data-percent="85%"></div></div></li>
+                        <li><div class="bar-info"><h3>Computer Vision</h3><span>Intermediate</span></div><div class="progress"><div class="percentage" data-percent="75%"></div></div></li>
+                        <li><div class="bar-info"><h3>MLOps (Docker, MLflow)</h3><span>Intermediate</span></div><div class="progress"><div class="percentage" data-percent="70%"></div></div></li>
+                          <li><div class="bar-info"><h3>Monitoring</h3><span>Beginner</span></div><div class="progress"><div class="percentage" data-percent="60%"></div></div></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                      <h5 class="underline-title">Design</h5>
+                      <ul class="skill-list">
+                        <li><div class="bar-info"><h3>Figma</h3><span>Beginner</span></div><div class="progress"><div class="percentage" data-percent="40%"></div></div></li>
+                        <li><div class="bar-info"><h3>Blender</h3><span>Beginner</span></div><div class="progress"><div class="percentage" data-percent="30%"></div></div></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="spacer-60"></div>
+                  <h5 class="underline-title">Languages</h5>
+                  <div class="spacer-60"></div>
+                  <div class="row">
+                    <div class="pie-chart col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="chart" data-percent="80" data-scale-color="#ffb400"><span class="percent">80</span></div>
+                      <div class="skills-description"><h6>English</h6></div>
+                    </div>
+                    <div class="pie-chart col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                      <div class="chart" data-percent="10" data-scale-color="#ffb400"><span class="percent">10</span></div>
+                      <div class="skills-description"><h6>Japanese</h6></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="certificates">
+                <div class="spacer-75"></div>
+                <div class="section-title page-caption">
+                  <h5>Certificates</h5>
+                  <div class="zigzag"><hr class="left"><hr class="right"><svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path></svg></div>
+                </div>
+                <div class="spacer-45"></div>
+                <div class="row">
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Belajar Dasar Ai.pdf" target="_blank"><h5>Fundamentals of AI </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Belajar Dasar Git dengan Github.pdf" target="_blank"><h5>Fundamentals of Git with Github </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Belajar Dasar Visualisasi Data.pdf" target="_blank"><h5>Basic Data Visualization </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Belajar Fundamental Deep Learning.pdf" target="_blank"><h5>Fundamental of Deep Learning </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Belajar Mechine Learning untuk Pemula.pdf" target="_blank"><h5>Machine Learning for Beginners </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Belajar Penerapan Data Science.pdf" target="_blank"><h5>Applied Data Science </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Dasar Pemrograman Untuk Menjadi Pengembang Software.pdf" target="_blank"><h5>Foundational Programming for Software Development </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Mechine Learning Terapan.pdf" target="_blank"><h5>Applied Machine Learning </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Membangun Sistem Mechine Learning.pdf" target="_blank"><h5>Building Machine Learning Systems </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Memulai Pemrograman dengan Python.pdf" target="_blank"><h5>Getting Started with Python Programming </h5></a></div></div></div>
+                  <div class="col-lg-6"><div class="timeline-item"><div class="timeline-outer"><a href="static/sertifikat/Sertifikat-Programming Logic 101.pdf" target="_blank"><h5>Programming Logic 101 </h5></a></div></div></div>
+                </div>
+              </section>
+
+              <section class="portfolio" id="portfolio"> 
+                <div class="spacer-75"></div>
+                <div class="section-title page-caption">
+                  <h5>Portfolio & Achievements</h5>
+                  <div class="zigzag"><hr class="left"><hr class="right"><svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path></svg></div>
+                </div>
+                <div  class="spacer-45"></div>
+                
+                <div class="row masonry">
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item robotics">
+                    <div class="work-holder scale-animation">
+                      <figure class="portfolio-item">
+                        <img src="static/images/works/work-1/mavis.jpg" alt="MAVIS Robot Project">
+                        <figcaption><div class="outer"><div class="inner"><span>Robotics</span><h3 class="title">Robotic Project</h3></div></div></figcaption>   
+                      </figure>
+                    </div>
+                  </a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item branding"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/works/work-1/signbridge.png" alt="SignBridge Project"><figcaption><div class="outer"><div class="inner"><span>Web Application</span><h3 class="title">Sign Language Translator (SIGNBRIDGE)</h3></div></div></figcaption></figure></div></a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item photography"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/works/work-2/dashboard.png" alt="Student Performance Dashboard"><figcaption><div class="outer"><div class="inner"><span>Data Visualization</span><h3 class="title">Student Performance Analysis Dashboard</h3></div></div></figcaption></figure></div></a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item other"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/works/work-3/mlops.png" alt="ML Model Monitoring"><figcaption><div class="outer"><div class="inner"><span>MLOps</span><h3 class="title">ML Model Performance Monitoring Dashboard</h3></div></div></figcaption></figure></div></a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item achievement"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/achievements/MAVIS-1.png" alt="1st Place - Indonesian Underwater Robot Contest (KRBAI)"><figcaption><div class="outer"><div class="inner"><span>2023</span><h3 class="title">1st Place - Indonesian Underwater Robot Contest (KRBAI)</h3></div></div></figcaption></figure></div></a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item achievement"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/achievements/KIBO-2.png" alt="2nd Place - Kibo Robot Programming Challenge 2023"><figcaption><div class="outer"><div class="inner"><span>2023</span><h3 class="title">2nd Place - Kibo Robot Programming Challenge 2023</h3></div></div></figcaption></figure></div></a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item achievement"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/achievements/UB-LKTI.png" alt="2nd Place - Scientific Paper Brawijaya Chemistry Week"><figcaption><div class="outer"><div class="inner"><span>2022</span><h3 class="title">2nd Place - Scientific Paper Brawijaya Chemistry Week</h3></div></div></figcaption></figure></div></a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item achievement"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/achievements/MAVIS-3.png" alt="3rd Place - Autonomous Semi-Submarine Drone Prototype Design and Performance Competition"><figcaption><div class="outer"><div class="inner"><span>2022</span><h3 class="title">3rd Place - Autonomous Semi-Submarine Drone Prototype Design and Performance Competition</h3></div></div></figcaption></figure></div></a>
+                  <a href="#" class="col-xl-4 col-lg-6 col-md-6 grid-item achievement"><div class="work-holder scale-animation"><figure class="portfolio-item"><img src="static/images/achievements/PETTERON-LKTI.png" alt="3rd Place - Pateron Paper Competition Scientific Paper"><figcaption><div class="outer"><div class="inner"><span>2022</span><h3 class="title">3rd Place - Pateron Paper Competition Scientific Paper</h3></div></div></figcaption></figure></div></a>
+                </div>
+              </section>
+      
+              <section class="contact" id="contact">
+                <div class="spacer-75"></div>
+                <div class="section-title page-caption">
+                  <h5>Get in Touch</h5>
+                  <div class="zigzag"><hr class="left"><hr class="right"><svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path></svg></div>
+                </div>
+                <div class="spacer-45"></div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 text-center">
+                      <div class="contact-info email mb-4">
+                        <p class="little-p info-title">Write me</p>
+                        <a href="mailto:septbyu24@gmail.com">septbyu24@gmail.com</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                      <div class="contact-info address mb-4">
+                        <p class="little-p info-title">Phone</p>
+                        <p>+62 822 9334 1525</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                      <div class="contact-info social mb-4">
+                        <p class="little-p info-title">Follow me</p>
+                        <p>
+                          <a href="https://www.linkedin.com/in/septbyu" target="_blank">LinkedIn.</a>
+                          <a href="https://github.com/giftbyu" target="_blank" class="ml-2">GitHub.</a>
+                        </p>
+                      </div>
+                    </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+          
+          <footer>
+            <div class="container">
+              <div class="footer-inner">
+                <ul class="social"><li><a target="_blank" href="https://www.linkedin.com/in/septbyu">LinkedIn</a></li><li><a target="_blank" href="https://github.com/giftbyu">GitHub</a></li></ul>
+              </div>
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <script src="static/js/jquery.js"></script>
+  <script src="static/js/plugins.js"></script>
+  <script src="static/js/main.js"></script>
+
+</body>
+</html>
